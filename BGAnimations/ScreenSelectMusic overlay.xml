@@ -1,0 +1,8 @@
+<ActorFrame><children>
+    <Layer
+        Type="Quad"
+        InitCommand="diffusealpha,0;"
+        OnCommand="%function(self) self:queuecommand('ApplyDifficultyBias') end"
+        ApplyDifficultyBiasCommand="%function(self) ApplyDifficultyBias() end"
+    />
+</children></ActorFrame>
